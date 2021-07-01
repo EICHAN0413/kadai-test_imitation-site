@@ -1,0 +1,110 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+header {
+  background-color: #2B2B2B;
+  font-size: 1rem;
+  width: 100%;
+  background-size: cover;
+
+}
+
+.top_menu {
+  padding: 0px;
+  margin: 0px;
+}
+
+.left {
+  float: left;
+  padding-left: 10px;
+
+}
+
+.right {
+  float: right;
+  padding-right: 10px;
+
+}
+
+.top_menu li {
+  list-style: none;
+  width: auto;
+
+}
+
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* ここまでがheader部分の実装 */
+.main-header img {
+  position: center;
+  width: 13%;
+  padding-top: 25%;
+
+}
+.about {
+  height: 200px;
+  width: 100%
+}
+
+.about h1 {
+  font-size: 1.5rem;
+}
+
+.about p {
+  font-size:0.8rem
+}
+/* ここから */
+.function {
+  height: 300px;
+  padding-top: 10px;
+  background-color:#D3D3D3
+
+}
+.function-images {
+  height: 150px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.function-image {
+float: left;
+padding: 0 20px;
+
+}
+/* ここまでがfunction部分の実装 */
+footer {
+  height: 70px;
+  padding-top: 1px;
+  background-color: #283A4B;
+  font-size: 0.8rem;
+  line-height: 2px;
+  }
+
+footer p {
+  width: 100%;
+  color: #fff;
+  padding-top: 10px;
+}
